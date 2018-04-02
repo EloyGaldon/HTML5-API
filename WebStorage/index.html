@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>html5API</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+
+<div class="row introTarea">
+    <div class="col-6 offset-3">
+        <div class="input-group">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="tarea" placeholder="Introduce la tarea" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="guardar">Añadir tarea</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="tareas">
+    <div class="row">
+        <div class="coll-6 offset-3">
+            <h3>Tus tareas</h3>
+            <ul id="resultado">
+
+            </ul>
+            <button class="btn-danger" onclick="borrar()">Borrar Todo</button>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/js/tareas.js"></script>
+
+</body>
+</html>
